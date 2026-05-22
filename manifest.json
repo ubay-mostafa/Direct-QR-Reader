@@ -13,5 +13,8 @@
     "web_accessible_resources": [{
         "resources": ["jsQR.js"],
         "matches": ["<all_urls>"]
-    }]
+    }],
+    "icons": {
+        "128": "icon128.png"
+    }
 }
