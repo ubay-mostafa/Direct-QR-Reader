@@ -1,0 +1,6 @@
+{
+  "manifest_version": 3,
+  "name": "Direct QR Reader",
+  "version": "1.0",
+  "description": "Select an area on screen to read a QR code"
+}
