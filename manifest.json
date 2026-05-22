@@ -1,13 +1,17 @@
 {
-  "manifest_version": 3,
-  "name": "Direct QR Reader",
-  "version": "1.0",
-  "description": "Select an area on screen to read a QR code",
-  "action": {
-    "default_title": "Read QR Code"
-  },
-  "background": {
-    "service_worker": "background.js"
-  },
-  "permissions": ["scripting", "activeTab", "tabs"]
+    "manifest_version": 3,
+    "name": "Direct QR Reader",
+    "version": "1.0",
+    "description": "Select an area on screen to read a QR code",
+    "action": {
+        "default_title": "Read QR Code"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["scripting", "activeTab", "tabs"],
+    "web_accessible_resources": [{
+        "resources": ["jsQR.js"],
+        "matches": ["<all_urls>"]
+    }]
 }
